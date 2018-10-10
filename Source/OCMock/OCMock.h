@@ -22,6 +22,7 @@
 #import <OCMock/OCMLocation.h>
 #import <OCMock/OCMMacroState.h>
 #import <OCMock/NSNotificationCenter+OCMAdditions.h>
+#import <OCMock/NSInvocation+OCMAdditions.h>
 #import <OCMock/OCMFunctions.h>
 
 
