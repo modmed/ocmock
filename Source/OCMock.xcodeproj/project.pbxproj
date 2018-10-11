@@ -36,8 +36,8 @@
 		03618D86195B553400389166 /* OCMRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 03618D82195B553400389166 /* OCMRecorder.m */; };
 		037ECD5418FAD84100AF0E4C /* OCMInvocationMatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037ECD5318FAD84100AF0E4C /* OCMInvocationMatcherTests.m */; };
 		037ECD5518FAD84100AF0E4C /* OCMInvocationMatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037ECD5318FAD84100AF0E4C /* OCMInvocationMatcherTests.m */; };
-		03B315AF146333BF0052CD09 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */; };
-		03B315B0146333BF0052CD09 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */; };
+		03B315AF146333BF0052CD09 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03B315B0146333BF0052CD09 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03B315B1146333BF0052CD09 /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B31586146333BF0052CD09 /* NSInvocation+OCMAdditions.m */; };
 		03B315B3146333BF0052CD09 /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B31586146333BF0052CD09 /* NSInvocation+OCMAdditions.m */; };
 		03B315B4146333BF0052CD09 /* NSMethodSignature+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31587146333BF0052CD09 /* NSMethodSignature+OCMAdditions.h */; };
@@ -245,7 +245,7 @@
 		817EB1541BD765130047E85A /* OCObserverMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B315A7146333BF0052CD09 /* OCObserverMockObject.h */; };
 		817EB1551BD765130047E85A /* OCMObserverRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B3159B146333BF0052CD09 /* OCMObserverRecorder.h */; };
 		817EB1561BD765130047E85A /* OCMPassByRefSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B315A1146333BF0052CD09 /* OCMPassByRefSetter.h */; };
-		817EB1571BD765130047E85A /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */; };
+		817EB1571BD765130047E85A /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		817EB1581BD765130047E85A /* NSMethodSignature+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31587146333BF0052CD09 /* NSMethodSignature+OCMAdditions.h */; };
 		817EB1591BD765130047E85A /* NSObject+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA28C5F4A475BEC0C28BDC3 /* NSObject+OCMAdditions.h */; };
 		817EB15A1BD765130047E85A /* NSValue+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA286EAC1682979C696D4D6 /* NSValue+OCMAdditions.h */; };
@@ -322,7 +322,7 @@
 		F0B951421B00810C00942C38 /* OCMArg.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B3158D146333BF0052CD09 /* OCMArg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0B951431B00810C00942C38 /* OCMConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31593146333BF0052CD09 /* OCMConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0B951441B00810C00942C38 /* OCMPassByRefSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B315A1146333BF0052CD09 /* OCMPassByRefSetter.h */; };
-		F0B951451B00810C00942C38 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */; };
+		F0B951451B00810C00942C38 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31585146333BF0052CD09 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0B951461B00810C00942C38 /* NSMethodSignature+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31587146333BF0052CD09 /* NSMethodSignature+OCMAdditions.h */; };
 		F0B951471B00810C00942C38 /* NSNotificationCenter+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B31589146333BF0052CD09 /* NSNotificationCenter+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0B951481B00810C00942C38 /* NSObject+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA28C5F4A475BEC0C28BDC3 /* NSObject+OCMAdditions.h */; };
